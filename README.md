@@ -1,38 +1,15 @@
 # ViT (Vision Transformer) Implementation With PyTorch
 
-<div align="center">
-    <a href="">
-        <img alt="open-source-image"
-        src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F_Open_Source-%2350C878?style=for-the-badge"/>
-    </a>
-    <a href="https://www.youtube.com/watch?v=Vonyoz6Yt9c&t=2s">
-        <img alt="youtube-tutorial"
-        src="https://img.shields.io/badge/YouTube_Tutorial-grey?style=for-the-badge&logo=YouTube&logoColor=%23FF0000"/>
-    </a>
-</div>
-<br/>
-<div align="center">
-    <p>Liked our work? give us a ⭐!</p>
-</div>
 
-<p align="center">
-  <img src="./assets/arc.png" height="70%" width="70%"/>
-</p>
 
 This repository contains unofficial implementation of ViT (Vision Transformer) that is introduced in the paper [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929) using PyTorch. Implementation has tested using the [MNIST Dataset](https://www.kaggle.com/competitions/digit-recognizer) for image classification task.
 
 ## Before You Start
-- **In order to use this code for images with multiple channels:** change `self.cls_token = nn.Parameter(torch.randn(size=(1, in_channels, embed_dim)), requires_grad=True)` to `self.cls_token = nn.Parameter(torch.randn(size=(1, 1, embed_dim)), requires_grad=True)`.
 
-## YouTube Tutorial
-<div align="center">
-    <a href="https://www.youtube.com/watch?v=Vonyoz6Yt9c&t=2s">Implement and Train ViT From Scratch for Image Recognition - PyTorch</a>
-    <br>
-    <br>
-    <a href="https://www.youtube.com/watch?v=Vonyoz6Yt9c&t=2s">
-        <img src="./assets/notebook-thumbnail.png" height="85%" width="85%%"/>
-    </a>
-</div>
+**install necessary python libraries using :**  ``` pip install -r requirements.txt ```
+
+- **NOTE: In order to use this code for images with multiple channels:** change `self.cls_token = nn.Parameter(torch.randn(size=(1, in_channels, embed_dim)), requires_grad=True)` to `self.cls_token = nn.Parameter(torch.randn(size=(1, 1, embed_dim)), requires_grad=True)`.
+
 
 ## Table of Contents
 * [ViT Implementation](#vitimp)
