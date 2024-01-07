@@ -147,9 +147,3 @@ for i in range(2):
         counter += 1
 ```
 
-## Usage <a class="anchor" id="usage"></a>
-You can run the code by downloading the notebook and updating the variables `train_df` and `test_df` to point a valid dataset location.
-
-## Contact <a class="anchor" id="contact"></a>
-You can contact me with this email address: uygarsci@gmail.com
-"# Image_Classification-using-Vision-Transformer" 
